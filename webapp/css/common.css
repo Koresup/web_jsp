@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+a{
+/*   text-decoration: none; */
+}
+
+
+div#contents_wrap{
+  width: 100%;
+  min-height: 1200px;
+}
+
+section#contents{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  padding-top: 100px;
+}

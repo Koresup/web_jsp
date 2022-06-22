@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	background-color: #FCF6F5;
+}
+#container{
+  	width: 600px;
+    min-height: 600px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btn-primary{
+  max-width: 330px;
+  color: #fff;
+  background-color: #7b9acc;
+  border-color: #7b9acc;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5c87cb;
+  border-color: #5c87cb;
+}
+#login_btn{
+	padding-top:90px;
+  margin-bottom: 30px;
+}

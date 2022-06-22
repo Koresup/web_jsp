@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#main_area {
+            width: 100%;
+            height: 650px;
+        }
+
+        #main_container {
+            width: 700px;
+            height: 500px;
+            margin: auto;
+            margin-top: 225px;
+            padding-top: 100px;
+            text-align: left;
+            background-color: #7b9acc;
+            border-radius: 30px;
+        }
+
+        #input_area {
+            font: bold 18px 'Noto Sans KR';
+            color: #FCF6F5;
+            padding-top: 10px;
+        }
+
+        .form-floating {
+            width: 400px;
+            margin: auto;
+        }
+
+        #next_btn{
+            padding-top: 30px;
+            margin: auto;
+            width: 400px;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #5c87cb;
+            border-color: #5c87cb;
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #3f74c9;
+            border-color: #3f74c9;
+        }

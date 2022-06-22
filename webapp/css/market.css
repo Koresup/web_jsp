@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+    align-items: center;
+  }
+#top_area {
+    background-color: aquamarine;
+    width: 100%;
+    height: 60px;
+}
+
+#bottom_area {
+    background-color: blueviolet;
+    width: 100%;
+    height: 150px;
+}
+
+#main_area {
+    width: 1243px;
+    min-height: 1300px;
+    margin: 0px auto;
+
+}
+#postlist_header{
+    border-bottom: solid 2px darkgray;
+}
+#postlist_header>header>#postlist_title {
+    font: bold 46px 'Noto Sans KR';
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#postlist_header>header{
+    margin-bottom: 50px;
+}
+#postlist_header>header>p {
+    font: 16px 'Noto Sans KR';
+    padding-left: 15px;
+}
+div#postlist_search{
+    width: 50%;
+    margin: 15px;
+}
+
+div#main_area>#postlist {
+    width: 100%;
+    height: 100%;
+    border-top: 3px darkgray;
+    border-bottom: 3px darkgray;
+}
+
+.product_detail p{
+    width: 280px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.product_price {
+    width: 100%;
+    text-align: right;
+    font: bold 24px 'Noto Sans KR';
+    margin-right: 10px;
+}
+
+.product_detail {
+    font: 16px 'Noto Sans KR';
+    margin-left: 10px;
+}
+div.row{
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+div.col{
+    max-width: 300px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 5px 5px 5px 5px #7b9acc;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#postlist .container .row .col img{
+	margin-top:30px;
+    width: 100%; 
+    height:230px
+}

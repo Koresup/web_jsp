@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+a{
+	text-decoration:none;
+}
+
+div#gym_list_wrap{
+	width:100%;
+}
+div.gym_list{
+  margin-bottom: 20px; 
+  margin-left: 0px;
+  border: 1px solid black;
+}
+
+div#contents_wrap div.gym_list:last-child{
+  margin-bottom: 0px;
+}
+
+div.gym_item_img{
+	width:500px;
+	height:300px;
+	margin:0px;
+  padding: 0px;
+}
+
+div.gym_item_img>img{
+  padding: 0px;
+  margin: 0px;
+}
+
+div.gym_item_info{
+  margin-left: 0px;
+  padding: 0px;
+}
+
+div.gym_info_date{
+  font-size: 30px;
+  padding: 0px;
+  padding-left:20px;
+}
+
+div.gym_info_address{
+ text-align: right;
+ line-height: 50px;
+ padding-right: 20px;
+}
+
+div.gym_info_bottom{
+  margin-top: 20px;
+}
+
+div.bottom_text{
+}
+
+div.gym_info_bottom_row{
+  width: 95%;
+  margin: 0px auto;
+}
+
+div.res_time_div{
+  text-align: center;
+}
+
+div.res_time_text{
+  float: left;
+  background: #eee;
+}
+
+div.option_div{
+  width: 650px;
+  margin : 0px auto;
+  background: #eee;
+  margin-bottom: 10px;
+}

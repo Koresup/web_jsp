@@ -1,0 +1,39 @@
+package commu_soc.board.service;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import comment.model.CommentDAO;
+import comment.model.CommentDTO;
+import commu_soc.board.BoardService;
+import commu_soc.board.model.BoardDAO;
+
+public class BoardDetail implements BoardService{
+	
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) {
+		HttpSession session = request.getSession();
+
+		if (session.getAttribute("User") == null) {
+			request.setAttribute("msg", "로그인이 필요합니다.");
+			request.setAttribute("goUrl", "../../member/Login");
+			request.setAttribute("mainUrl", "alert");
+		} else {
+			String post_id = request.getParameter("post_id");
+			BoardDAO dao = new BoardDAO();
+			ArrayList<CommentDTO> comment_dto = new CommentDAO().list(post_id);
+			
+			
+			
+			dao.addCount(post_id);
+			Object data = dao.detail(post_id);
+			request.setAttribute("dto",data);
+			request.setAttribute("comment_dto", comment_dto);
+			request.setAttribute("mainUrl", "commu_soc/board/Detail");	
+		}
+	}
+	
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#notice_table{
+	width : 980px;
+	height : auto;
+	margin :0px auto;
+}
+
+table#notice_table tr td{
+	height : 30px;
+	line-height:30px;
+}
+
+.notice_title{
+	width:700px;
+	
+}
+
+.notice_filter{
+	width : 150px;
+	text-align:right;
+}
+
+.notice_date{
+	width: auto;
+	text-align : center;
+}

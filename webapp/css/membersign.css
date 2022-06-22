@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.btn-primary{
+    font: 16px 'Noto Sans KR';
+    text-align: center;
+    height: 38px;
+    color: #fff;
+    background-color: #7b9acc;
+    border-color: #7b9acc;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #5c87cb;
+    border-color: #5c87cb;
+  }
+  .form-label{
+      font: 16px 'Noto Sans KR';
+  }
+  .text-center{
+    font: 38px 'Noto Sans KR';
+  }
